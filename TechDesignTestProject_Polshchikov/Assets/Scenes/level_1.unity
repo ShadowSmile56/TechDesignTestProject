@@ -1119,6 +1119,14 @@ PrefabInstance:
       propertyPath: uiButton
       value: 
       objectReference: {fileID: 503979325}
+    - target: {fileID: 4787616999202461119, guid: 8144cd48329638544b2188390a8f2f78, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4787616999202461119, guid: 8144cd48329638544b2188390a8f2f78, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8144cd48329638544b2188390a8f2f78, type: 3}
 --- !u!1001 &2822986148659256397
