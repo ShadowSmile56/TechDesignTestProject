@@ -8,10 +8,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1566847329981940102}
+  - component: {fileID: 4787616999202461119}
   - component: {fileID: 1566847329981940103}
   - component: {fileID: 1566847329981940097}
   - component: {fileID: 4686234701856271919}
+  - component: {fileID: 2276996955506812501}
   m_Layer: 0
   m_Name: obj_chest_button
   m_TagString: Untagged
@@ -19,21 +20,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1566847329981940102
-Transform:
+--- !u!224 &4787616999202461119
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566847329981940100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.19, y: -4.57, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 9.19, y: -4.57}
+  m_SizeDelta: {x: 0.9375, y: 0.65625}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1566847329981940103
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -125,3 +131,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiButton: {fileID: 0}
+--- !u!222 &2276996955506812501
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566847329981940100}
+  m_CullTransparentMesh: 1
